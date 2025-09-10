@@ -64,7 +64,7 @@
         "include_outgoing_only_numbers": true
       },
       "conversation_transfer": {
-        "enabled": true,
+        "enabled": false,
         "cold_transfer": true,
         "multi_participant": true
       },
@@ -108,7 +108,7 @@
         "input_select": false
       },
       "dual_channel_recording": {
-        "enabled": false,
+        "enabled": true,
         "channel": "worker",
         "exclude_attributes": [],
         "exclude_queues": []
@@ -423,7 +423,7 @@
         "region": ""
       },
       "conditional_recording": {
-        "enabled": false,
+        "enabled": true,
         "exclude_attributes": [],
         "exclude_queues": []
       }
