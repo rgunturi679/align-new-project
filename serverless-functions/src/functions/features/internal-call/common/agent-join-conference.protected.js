@@ -4,6 +4,7 @@ exports.handler = (context, event, callback) => {
   twiml.dial().conference(
     {
       endConferenceOnExit: true,
+      statusCallback: `https://charcoal-mongoose-4808.twil.io/call-logging`,
     },
     event.conferenceName,
   );
