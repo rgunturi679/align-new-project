@@ -3,7 +3,7 @@ exports.handler = (context, event, callback) => {
 
   twiml.dial().conference(
     {
-      statusCallback: 'call-outbound-join',
+      statusCallback: `https://charcoal-mongoose-4808.twil.io/call-logging`,
       statusCallbackEvent: 'join end',
       endConferenceOnExit: true,
     },
