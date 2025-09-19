@@ -5,5 +5,5 @@ import hooks from './flex-hooks/**/*.*';
 
 export const register = (): FeatureDefinition => {
   if (!isFeatureEnabled()) return {};
-  return { name: 'call-logging', hooks: typeof hooks === 'undefined' ? [] : hooks };
+  return { name: 'call-logging2', hooks: typeof hooks === 'undefined' ? [] : hooks };
 };

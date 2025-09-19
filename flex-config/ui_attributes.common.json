@@ -72,7 +72,10 @@
           "DACH-iTero TechSupport onboarding",
           "DACH-Clinical Commercial"
         ],
-        "CEBIIL": ["CEBI-IL-Customer Support", "CEBI-IL-Tech Support"],
+        "CEBIIL": [
+          "CEBI-IL-Customer Support",
+          "CEBI-IL-Tech Support"
+        ],
         "CEBI": [
           "CEBI-Customer Support",
           "CEBI-Clinical Commercial",
@@ -1424,7 +1427,10 @@
         "per_queue": {
           "exampleQueueName": {
             "require_disposition": true,
-            "dispositions": ["Promotional Sale", "Renewal"],
+            "dispositions": [
+              "Promotional Sale",
+              "Renewal"
+            ],
             "text_attributes": [],
             "select_attributes": []
           }
@@ -1629,8 +1635,11 @@
         ],
         "analytics_base_url": "https://analytics.ytica.com/dashboard.html"
       },
-      "CallLoggingPlugin":{
-        "enabled":true
+      "CallLoggingPlugin": {
+        "enabled": true
+      },
+      "call_logging2": {
+        "enabled": true
       }
     }
   }
